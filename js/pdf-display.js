@@ -8,11 +8,11 @@ jQuery(document).ready(function($) {
   function adjustHeight(){
     //Fetch URL of pdf
     var objectData = $("object#pdf-main").attr("data");
-    //remove content of data-attribute
-    $("object#pdf-main").attr("data", "");
 
+    //Determine height of PDF
     var objectHeight = windowHeight - barHeight;
-    //add bottom padding
+
+    //Assign correct height
     $("object#pdf-main").attr("height", objectHeight);
 
     //Add data attribute again, since height is now adjusted
