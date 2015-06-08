@@ -3,7 +3,7 @@
 * Plugin Name: Simple PDF bar
 * Plugin URI: http://adapt.dk
 * Description: Add a simple lead generation bar to your PDF-files
-* Version: 1.0.0
+* Version: 1.0.2
 * Author: Andreas Butze (Adapt A/S)
 * Author URI: http://adapt.dk
 * License: GPL2
