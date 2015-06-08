@@ -61,10 +61,12 @@ add_action( 'admin_print_scripts-post.php', 'portfolio_admin_script', 11 );
 function portfolio_admin_script() {
     global $post_type;
     if( 'pdfbar' == $post_type ){
-    	/** Add the color picker css file */       
+    	 /** Add the color picker css file */       
        wp_enqueue_style( 'wp-color-picker' );
        /** Include pdfbar jQuery file with WordPress Color Picker dependency */
-        wp_enqueue_script( 'pdf-admin-settings', plugins_url( '/js/pdf-admin-settings.js', __FILE__ ), array( 'wp-color-picker' ), false, true ); 
+       wp_enqueue_script( 'pdf-admin-settings', plugins_url( '/js/pdf-admin-settings.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
+       /** Register admin stylesheet */
+       wp_enqueue_style( 'pdf-admin-css', plugins_url('css/pdf-bar-admin.css', __FILE__) );
     }
 }
 

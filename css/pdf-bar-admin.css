@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+div.pdf-attached {
+	color: green;
+	background: url("../images/checkmark.png") no-repeat left center;
+	padding-left: 25px;
+}
+
+#post-body .postbox-container .meta-box-sortables .postbox {
+	border: 0 none;
+	background: transparent;
+	box-shadow: none;
+}
+
+#post-body .postbox-container .meta-box-sortables .postbox > h3,
+#post-body .postbox-container .meta-box-sortables .postbox > .handlediv {
+	cursor: pointer;
+}
+
+#post-body .postbox-container .meta-box-sortables .postbox > h3 {
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+#post-body .postbox-container .meta-box-sortables.closed .inside {
+	display: block;
+}
+
+#post-body .postbox-container .meta-box-sortables .postbox > .inside > .field { 
+    border-top: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+}

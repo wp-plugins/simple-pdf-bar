@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: andreasbutze
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YHSALBZF3LNQ6&lc=DK&item_name=Simple%20PDF%20Bar%20%28WP%2dplugin%29&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: pdf, lightweight, lead, generation, bar
+Tags: pdf, lightweight, lead, generation, bar, simple
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,9 @@ Yes, you can do this directly from your own theme’s css.
 
 == Changelog ==
 
+= 1.0.2 =
+* PDF-Bar admin page layout updated
+
 = 1.0.1 =
 * Safari load problem fixed
 * Double scrollbar removed
@@ -60,6 +63,8 @@ Yes, you can do this directly from your own theme’s css.
 * First published version.
 
 == Upgrade Notice ==
+
+= 1.0.2 = Minor update to admin page layout
 
 = 1.0.1 = Safari load issue fixed + double scrollbar removed
 

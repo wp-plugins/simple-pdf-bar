@@ -21,7 +21,7 @@ function wp_custom_attachment() {
 	    $html .= 'Upload a new PDF here.';
 	} else {
 		$attached_pdf = $filearray['url'];
-		echo "<div style='color: green;'>Attached PDF file: ". $attached_pdf . "</div>";
+		echo "<div class='pdf-attached'>Attached PDF file: ". $attached_pdf . "</div>";
 		$html = '<hr><p class="description">';
         $html .= 'Replace with another PDF here.';
 	}
