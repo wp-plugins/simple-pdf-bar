@@ -50,6 +50,10 @@ Yes, you can do this directly from your own theme’s css.
 
 == Screenshots ==
 
+1. Admin page - Where each individual PDF is uploaded and the PDF bar is configured
+
+2. PDF view - The PDF with the PDF bar activated
+
 == Changelog ==
 
 = 1.0.2 =
